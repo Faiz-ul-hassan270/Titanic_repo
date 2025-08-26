@@ -156,11 +156,9 @@ pivot_listed_in = pd.pivot_table(df,
 df['year_added'] = df['date_added'].dt.year
 df['month_added'] = df['date_added'].dt.month_name()
 
-print('Number of titles added per month vs year:'.center(120, '='))
-pivot_month_year = pd.pivot_table(df,
-                                   index='year_added',
-                                   columns='month_added',
-                                   values='title',
-                                   aggfunc='count',
-                                   fill_value=0)
-print(pivot_month_year)
+print('Most common genre (listed_in) per country:'.center(120, '='))
+df_clean = df[['country', 'listed_in']].dropna()
+def most_common_genre(genres):
+    return genres.mode().iloc[0] if not genres.mode().empty else None
+genre_by_country = df_clean.groupby('country')['listed_in'].agg(most_common_genre)
+print(genre_by_country)
