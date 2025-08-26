@@ -1,6 +1,6 @@
 # Netflix EDA Project 🎬📈
 
-This project is my **second end-to-end practice project** after Titanic and Iris datasets.  
+This project is my **second end-to-end practice project** after Titanic dataset.  
 The aim was to simulate a **real-world data analyst task** by cleaning, analyzing, and extracting insights from Netflix’s catalog dataset.
 
 ## 🚀 What I Did
@@ -23,3 +23,4 @@ The aim was to simulate a **real-world data analyst task** by cleaning, analyzin
 ## 📌 Next Steps
 - Visualize findings using **Matplotlib & Seaborn**.  
 - Combine external datasets (e.g., IMDB ratings) for deeper analysis.  
+
