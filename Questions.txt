@@ -1,0 +1,34 @@
+🔹 Easy (15 Questions)
+
+Display the first 10 rows of the dataset.
+Show the column names of the dataset.
+How many total movies and TV shows are in the dataset?
+List all unique ratings available in the dataset.
+Show the first 5 records where type is "Movie".
+Find the number of titles released in 2020.
+Display all shows directed by "Rajiv Chilaka".
+Show the top 10 countries with the most Netflix titles.
+Find the most common type (Movie or TV Show).
+Show the titles that belong to the "Horror Movies" category.
+Count the number of unique directors.
+Show all the shows where "India" is listed as the country.
+Find the earliest release year in the dataset.
+Find the latest release year in the dataset.
+Show 5 random samples from the dataset.
+
+🔹 Intermediate (20 Questions)
+
+Count how many titles each country has produced.
+Find the top 10 directors with the most titles on Netflix.
+Find all TV Shows with more than 3 seasons.
+Group data by type and find the average release year for movies vs TV shows.
+Show the titles that have both "Drama" and "International" in their listed_in.
+How many movies were added to Netflix in 2021?
+Find the month in which the most titles were added.
+Show the distribution (count) of shows by rating.
+Show the oldest movie available on Netflix.
+
+Create a pivot table showing the number of titles by country and type (Movie/TV Show).
+Create a pivot table showing average release year by rating.
+Make a pivot table showing the count of titles by year (rows) and type (columns).
+Use a pivot table to show the number of titles added per month vs year.
